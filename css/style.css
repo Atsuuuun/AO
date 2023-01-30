@@ -377,6 +377,12 @@ img {
   text-align: center;
 }
 
+#gallery ul {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
