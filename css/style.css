@@ -377,11 +377,20 @@ img {
   text-align: center;
 }
 
-#gallery ul {
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
+#gallery ul {<style>
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li:nth-child(2) {
+    margin: 0 10px;
+  }
+</style>
 
 /*media Queries 767
 ----------------------------------------------------*/
