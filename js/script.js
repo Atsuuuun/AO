@@ -12,7 +12,7 @@ $(function () {
   });
 
   //ページトップ
-  jQuery(function() {
+jQuery(function() {
     var pagetop = $('#page_top');   
     pagetop.hide();
     $(window).scroll(function () {
@@ -29,5 +29,6 @@ $(function () {
         return false;
     });
 });
+
 
 });
