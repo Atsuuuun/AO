@@ -99,6 +99,33 @@ img {
   color: #333;
 }
 
+.header-logo a {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 0;
+  transition: .3s;
+  letter-spacing: .05em;
+  color: #333;
+}
+.header-logo a:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  content: "";
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #333;
+}
+
+.header-logo a:hover:after {
+  width: 100%;
+}
+
 .gnav-list {
   display: flex;
   justify-content: space-between;
