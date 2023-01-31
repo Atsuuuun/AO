@@ -90,7 +90,7 @@ img {
 .header-logo {
   font-weight: bold;
   line-height: 1.2;
-  margin-left: 20px;
+  margin-left: 15px;
   letter-spacing: .05em;
 }
 
@@ -129,6 +129,7 @@ img {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-right: 12px;
 }
 
 .gnav-item:not(:last-child) {
@@ -329,6 +330,7 @@ img {
   background: #787777;
   opacity: 0.6;
   border-radius: 50%;
+  margin-right: 15px;
 }
 #page_top a{
   position: relative;
