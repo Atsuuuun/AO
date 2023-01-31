@@ -595,32 +595,3 @@ img {
     margin-bottom: 20px;
   }
 }
-
-/*-----------------------------
-ページトップに戻る
--------------------------------*/
-#page-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 14px;
-  line-height: 1;
-  z-index: 99;
-}
-#page-top a {
-  background: #737474;
-  text-decoration: none;
-  text-rendering: auto;
-  color: #fff;
-  width: 60px;
-  padding: 28px 5px;
-  text-align: center;
-  display: block;
-  border-radius: 90px;
-  opacity: 0.9;
-  transition: all .3s ease;
-}
-#page-top a:hover {
-  text-decoration: none;
-  opacity: .5;
-}
